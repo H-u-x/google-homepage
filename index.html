@@ -53,6 +53,30 @@
         padding-left: 810px;
         padding-top: 250px;
     }
+
+    .searchBtn {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+        width: 320px;
+        height: 40px;
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    footer {
+        margin-top: 400px;
+        height: 20px;
+        list-style-type: none;
+        display: grid;
+        grid-template-columns:  5% 4% 80% 4% 3% 3%;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+        background-color: rgb(245, 243, 239);
+        padding-left: 20px;
+    }
+
 </style>
 
 <header>
@@ -74,5 +98,19 @@
     <div class="searchBar">
             <input type="text" placeholder="Search...">
     </div>
+
+    <div class="searchBtn">
+            <button class="googleSearch">Google Search</button>
+            <button class="feelingLucky">I'm feeling lucky</button>
+    </div>
 </body>
+
+<footer>
+    <li>Advertising</li>
+    <li>Business</li>
+    <li>How Search works</li>
+    <li>Privacy</li>
+    <li>Terms</li>
+    <li>Settings</li>
+</footer>
 </html>
