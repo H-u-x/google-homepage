@@ -1,7 +1,33 @@
 <!DOCTYPE html>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 <style>
     body {
        background: white; 
+    }
+    .material-icons {
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 24px;  /* Preferred icon size */
+        display: inline-block;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+
+        /* Support for all WebKit browsers. */
+        -webkit-font-smoothing: antialiased;
+        /* Support for Safari and Chrome. */
+        text-rendering: optimizeLegibility;
+
+        /* Support for Firefox. */
+        -moz-osx-font-smoothing: grayscale;
+
+        /* Support for IE. */
+        font-feature-settings: 'liga';
     }
 
     ul {
@@ -27,18 +53,19 @@
         padding-left: 810px;
         padding-top: 250px;
     }
-
 </style>
+
 <header>
     <ul>
         <li>About</li>
         <li>Store</li>
         <li>Gmail</li>
         <li>Images</li>
-        <li>Menu</li>
-        <li>Profile</li>
+        <li><span class="material-icons">apps</span></li>
+        <li><span class="material-icons">account_circle</span></li>
     </ul>
 </header>
+
 <body>
     <div class="logo">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="The google logo" class="google-logo">
